@@ -1,7 +1,7 @@
 import React from 'react'
 import './Video.css';
 // import playVideo from '../../Component/playVideo/playVideo';
-// import Videoplay from '../../Component/Videoplay';
+import Videoplay from '../Component/Videoplay';
 
 
 
@@ -9,7 +9,7 @@ import './Video.css';
 const Video = () => {
   return (
     <div className='play-container'>
-{/* <Videoplay/> */}
+<Videoplay/>
 
 
 </div>
